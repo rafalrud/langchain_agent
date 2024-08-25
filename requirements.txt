@@ -1,0 +1,6 @@
+langchain
+langchain_anthropic
+python-dotenv
+langchain-experimental
+pyats
+genie
