@@ -44,7 +44,7 @@ pyats_command = 'pyats parse "show ip interface brief" --testbet-file testbed.ya
 
 #Run the SSH command and handle potential errors
 try:
-    response = agent_executor.invoke({"input": 'Run this command pyats parse "show ip interface brief" --testbet-file testbed.yaml'})
+    response = agent_executor.invoke({"input": f'Run this command pyats parse {pyats_command}'})
     print(response)
 except Exception as e:
     print(e)
