@@ -27,8 +27,7 @@ pip install -r requirements.txt
 ```
 3. Set up your environment variables:
 
-Rename `.env.example` to `.env`
-Open .env and replace `YOUR_API_KEY_HERE` with your actual Anthropic API key
+Rename `.env.example` to `.env`. Open `.env` and replace `YOUR_API_KEY_HERE` with your actual Anthropic API key
 
 ## Configuration
 ### Testbed Configuration
